@@ -1,0 +1,23 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    row-gap: 24px;
+    list-style-type: none;
+    padding: 100px 156px;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.gallery-item {
+    width: calc((100% - 48px) / 3);
+    box-sizing: border-box;
+}
+
+.gallery-image {
+    width: 360px;
+    height: 200px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray -76px -16.297px / 125.278% 150.297% no-repeat;
+}
